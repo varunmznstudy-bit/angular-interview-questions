@@ -1130,7 +1130,7 @@
   **[⬆ Back to Top](#table-of-contents)**
 
 43. ### What is an observer?
-    Observer is an interface for a consumer of push-based notifications delivered by an Observable. It has below structure,
+    An Observer is a consumer of values delivered by an Observable. Observers are simply a set of callbacks, one for each type of notification delivered by the Observable: next, error, and complete.. It has below structure,
 
     ```javascript
     interface Observer<T> {
